@@ -1,4 +1,4 @@
-# icub-moveit
+# icub-ros-moveit
 
 URDF iCub model ready for MoveIt! in ROS Hydro
 
