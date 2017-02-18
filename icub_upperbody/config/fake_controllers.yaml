@@ -1,0 +1,119 @@
+controller_list:
+  - name: fake_left_arm_controller
+    joints:
+      - laj1
+      - laj2
+      - laj3
+      - laj4
+      - laj5
+      - laj6
+      - left_wrist_yaw
+  - name: fake_right_arm_controller
+    joints:
+      - raj1
+      - raj2
+      - raj3
+      - raj4
+      - raj5
+      - raj6
+      - right_wrist_yaw
+  - name: fake_left_hand_controller
+    joints:
+      - left_wrist_yaw
+      - laij3
+      - laij4
+      - laij5
+      - llij3
+      - llij4
+      - llij5
+      - lmj3
+      - lmj4
+      - lmj5
+      - lrij3
+      - lrij4
+      - lrij5
+      - ltj2
+      - ltj4
+      - ltj5
+      - ltj6
+  - name: fake_right_hand_controller
+    joints:
+      - right_wrist_yaw
+      - ij3
+      - ij4
+      - ij5
+      - lij3
+      - lij4
+      - lij5
+      - mj3
+      - mj4
+      - mj5
+      - rij3
+      - rij4
+      - rij5
+      - tj2
+      - tj4
+      - tj5
+      - tj6
+  - name: fake_two_arm_controller
+    joints:
+      - j4
+      - laj1
+      - laj2
+      - laj3
+      - laj4
+      - laj5
+      - laj6
+      - left_wrist_yaw
+      - raj1
+      - raj2
+      - raj3
+      - raj4
+      - raj5
+      - raj6
+      - right_wrist_yaw
+  - name: fake_torso_controller
+    joints:
+      - j1
+      - j2
+      - j3
+      - j4
+  - name: fake_two_arm_torso_controller
+    joints:
+      - j1
+      - j2
+      - j3
+      - j4
+      - laj1
+      - laj2
+      - laj3
+      - laj4
+      - laj5
+      - laj6
+      - left_wrist_yaw
+      - raj1
+      - raj2
+      - raj3
+      - raj4
+      - raj5
+      - raj6
+      - right_wrist_yaw
+  - name: fake_left_torso_controller
+    joints:
+      - j1
+      - j2
+      - j3
+      - j4
+  - name: fake_left_arm_torso_controller
+    joints:
+      - j1
+      - j2
+      - j3
+      - j4
+      - laj1
+      - laj2
+      - laj3
+      - laj4
+      - laj5
+      - laj6
+      - left_wrist_yaw

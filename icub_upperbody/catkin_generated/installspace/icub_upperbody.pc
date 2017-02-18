@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: icub_upperbody
+Description: Description of icub_upperbody
+Version: 0.2.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

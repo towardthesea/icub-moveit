@@ -1,0 +1,159 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec903564324/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec903564324.dir/build.make CMakeFiles/cmTryCompileExec903564324.dir/build
+make[1]: Entering directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec903564324.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec903564324.dir/CheckSymbolExists.c.o   -c /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec903564324
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec903564324.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec903564324.dir/CheckSymbolExists.c.o  -o cmTryCompileExec903564324 -rdynamic 
+CMakeFiles/cmTryCompileExec903564324.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec903564324] Error 1
+make[1]: Leaving directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec903564324/fast] Error 2
+
+File /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec187191625/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec187191625.dir/build.make CMakeFiles/cmTryCompileExec187191625.dir/build
+make[1]: Entering directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec187191625.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec187191625.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec187191625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec187191625.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec187191625.dir/CheckFunctionExists.c.o  -o cmTryCompileExec187191625 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec187191625] Error 1
+make[1]: Leaving directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec187191625/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2839819359/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2839819359.dir/build.make CMakeFiles/cmTryCompileExec2839819359.dir/build
+make[1]: Entering directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2839819359.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2839819359.dir/CheckSymbolExists.c.o   -c /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2839819359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2839819359.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2839819359.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2839819359 -rdynamic 
+CMakeFiles/cmTryCompileExec2839819359.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2839819359] Error 1
+make[1]: Leaving directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2839819359/fast] Error 2
+
+File /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3495003283/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3495003283.dir/build.make CMakeFiles/cmTryCompileExec3495003283.dir/build
+make[1]: Entering directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3495003283.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3495003283.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3495003283
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3495003283.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3495003283.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3495003283 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3495003283] Error 1
+make[1]: Leaving directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3495003283/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3833787935/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3833787935.dir/build.make CMakeFiles/cmTryCompileExec3833787935.dir/build
+make[1]: Entering directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3833787935.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3833787935.dir/CheckSymbolExists.c.o   -c /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3833787935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3833787935.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3833787935.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3833787935 -rdynamic 
+CMakeFiles/cmTryCompileExec3833787935.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3833787935] Error 1
+make[1]: Leaving directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3833787935/fast] Error 2
+
+File /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4027462514/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4027462514.dir/build.make CMakeFiles/cmTryCompileExec4027462514.dir/build
+make[1]: Entering directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4027462514.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4027462514.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4027462514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4027462514.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4027462514.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4027462514 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4027462514] Error 1
+make[1]: Leaving directory `/home/pnguyen/ROS_workspace/src/icub-moveit/icub_controller_interface/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4027462514/fast] Error 2
+
+

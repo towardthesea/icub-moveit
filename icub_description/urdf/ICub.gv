@@ -1,0 +1,284 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"l0" [label="l0"];
+"l1" [label="l1"];
+"l2" [label="l2"];
+"l3" [label="l3"];
+"l4" [label="l4"];
+"l5" [label="l5"];
+"l6" [label="l6"];
+"l7" [label="l7"];
+"l8" [label="l8"];
+"l7s" [label="l7s"];
+"l8s" [label="l8s"];
+"la0" [label="la0"];
+"la1" [label="la1"];
+"la2" [label="la2"];
+"la3" [label="la3"];
+"la4" [label="la4"];
+"la5" [label="la5"];
+"la6" [label="la6"];
+"left_palm" [label="left_palm"];
+"lindexbase" [label="lindexbase"];
+"lail0" [label="lail0"];
+"lail1" [label="lail1"];
+"lail2" [label="lail2"];
+"lail3" [label="lail3"];
+"llittlebase" [label="llittlebase"];
+"llil0" [label="llil0"];
+"llil1" [label="llil1"];
+"llil2" [label="llil2"];
+"llil3" [label="llil3"];
+"lmiddlebase" [label="lmiddlebase"];
+"lml0" [label="lml0"];
+"lml1" [label="lml1"];
+"lml2" [label="lml2"];
+"lml3" [label="lml3"];
+"lringbase" [label="lringbase"];
+"lril0" [label="lril0"];
+"lril1" [label="lril1"];
+"lril2" [label="lril2"];
+"lril3" [label="lril3"];
+"lthumbbase" [label="lthumbbase"];
+"ltl0" [label="ltl0"];
+"ltl1" [label="ltl1"];
+"ltl2" [label="ltl2"];
+"ltl3" [label="ltl3"];
+"ltl4" [label="ltl4"];
+"ra0" [label="ra0"];
+"ra1" [label="ra1"];
+"ra2" [label="ra2"];
+"ra3" [label="ra3"];
+"ra4" [label="ra4"];
+"ra5" [label="ra5"];
+"ra6" [label="ra6"];
+"right_palm" [label="right_palm"];
+"indexbase" [label="indexbase"];
+"il0" [label="il0"];
+"il1" [label="il1"];
+"il2" [label="il2"];
+"il3" [label="il3"];
+"littlebase" [label="littlebase"];
+"lil0" [label="lil0"];
+"lil1" [label="lil1"];
+"lil2" [label="lil2"];
+"lil3" [label="lil3"];
+"middlebase" [label="middlebase"];
+"ml0" [label="ml0"];
+"ml1" [label="ml1"];
+"ml2" [label="ml2"];
+"ml3" [label="ml3"];
+"ringbase" [label="ringbase"];
+"ril0" [label="ril0"];
+"ril1" [label="ril1"];
+"ril2" [label="ril2"];
+"ril3" [label="ril3"];
+"thumbbase" [label="thumbbase"];
+"tl0" [label="tl0"];
+"tl1" [label="tl1"];
+"tl2" [label="tl2"];
+"tl3" [label="tl3"];
+"tl4" [label="tl4"];
+"ll0" [label="ll0"];
+"ll1" [label="ll1"];
+"ll2" [label="ll2"];
+"ll3" [label="ll3"];
+"ll4" [label="ll4"];
+"ll5" [label="ll5"];
+"ll6" [label="ll6"];
+"rl0" [label="rl0"];
+"rl1" [label="rl1"];
+"rl2" [label="rl2"];
+"rl3" [label="rl3"];
+"rl4" [label="rl4"];
+"rl5" [label="rl5"];
+"rl6" [label="rl6"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "j0" [label="xyz: 0 0 0 \nrpy: 1.57079 -1.57079 -2.65361e-06"]
+"j0" -> "l0"
+"l0" -> "j1" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"j1" -> "l1"
+"l1" -> "j2" [label="xyz: 0.033 0 0 \nrpy: 1.5708 -0 0"]
+"j2" -> "l2"
+"l2" -> "j3" [label="xyz: 0 0 -0.0055 \nrpy: 1.5708 -0 -1.5708"]
+"j3" -> "l3"
+"l3" -> "j4" [label="xyz: 0 -0.0046 -0.223 \nrpy: -1.5708 -0 -1.5708"]
+"j4" -> "l4"
+"l4" -> "j5" [label="xyz: 0 0.0099 0 \nrpy: 1.5708 -0 1.5708"]
+"j5" -> "l5"
+"l5" -> "j6" [label="xyz: 0 0 0 \nrpy: -1.5708 -0 -1.5708"]
+"j6" -> "l6"
+"l6" -> "j7" [label="xyz: 0 -0.0515 0.082 \nrpy: -1.5708 -0 1.5708"]
+"j7" -> "l7"
+"l7" -> "j8" [label="xyz: 0 0 0.034 \nrpy: -1.5708 0 0"]
+"j8" -> "l8"
+"l6" -> "j7s" [label="xyz: 0 -0.0515 0.082 \nrpy: -1.5708 -0 1.5708"]
+"j7s" -> "l7s"
+"l7s" -> "j8s" [label="xyz: 0 0 -0.034 \nrpy: -1.5708 0 0"]
+"j8s" -> "l8s"
+"l4" -> "laj0" [label="xyz: -0.0248786 -0.08 -0.0060472 \nrpy: 3.14159 0.261793 3.14159"]
+"laj0" -> "la0"
+"la0" -> "laj1" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"laj1" -> "la1"
+"la1" -> "laj2" [label="xyz: 0 0 0.1077 \nrpy: -1.5708 -0 1.5708"]
+"laj2" -> "la2"
+"la2" -> "laj3" [label="xyz: 0 0 0 \nrpy: 1.5708 -0 -1.5708"]
+"laj3" -> "la3"
+"la3" -> "laj4" [label="xyz: 0.0039 0.0145 0.15725 \nrpy: 1.5708 -0 1.5708"]
+"laj4" -> "la4"
+"la4" -> "laj5" [label="xyz: -0.015 0 -0.004 \nrpy: 1.5708 -0 0"]
+"laj5" -> "la5"
+"la5" -> "laj6" [label="xyz: 0 0 -0.141 \nrpy: 1.5708 -0 -1.5708"]
+"laj6" -> "la6"
+"la6" -> "left_wrist_yaw" [label="xyz: 0 0 0 \nrpy: 1.5708 -0 1.5708"]
+"left_wrist_yaw" -> "left_palm"
+"left_palm" -> "laij1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 0"]
+"laij1" -> "lindexbase"
+"lindexbase" -> "laij2" [label="xyz: 0.0018 -0.027 -0.00375 \nrpy: 0.0959 -0 -3.1241"]
+"laij2" -> "lail0"
+"lail0" -> "laij3" [label="xyz: 0.0148 0 0 \nrpy: 1.5708 -0 0"]
+"laij3" -> "lail1"
+"lail1" -> "laij4" [label="xyz: 0.0259 0 0 \nrpy: 0 -0 0"]
+"laij4" -> "lail2"
+"lail2" -> "laij5" [label="xyz: 0.022 0 0 \nrpy: 0 -0 0"]
+"laij5" -> "lail3"
+"left_palm" -> "llij1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 0"]
+"llij1" -> "llittlebase"
+"llittlebase" -> "llij2" [label="xyz: 0.00025 0.02475 -0.0025 \nrpy: -0.0873 1.0842e-19 3.1241"]
+"llij2" -> "llil0"
+"llil0" -> "llij3" [label="xyz: 0.0148 0 0 \nrpy: 1.5708 -0 0"]
+"llij3" -> "llil1"
+"llil1" -> "llij4" [label="xyz: 0.0218 0 0 \nrpy: 0 -0 0"]
+"llij4" -> "llil2"
+"llil2" -> "llij5" [label="xyz: 0.019 0 0 \nrpy: 0 -0 0"]
+"llij5" -> "llil3"
+"left_palm" -> "lmj1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 0"]
+"lmj1" -> "lmiddlebase"
+"lmiddlebase" -> "lmj2" [label="xyz: -0.0028 -0.01 -0.005 \nrpy: 0 -0 -3.14159"]
+"lmj2" -> "lml0"
+"lml0" -> "lmj3" [label="xyz: 0.015 0 0 \nrpy: 1.5708 -0 0"]
+"lmj3" -> "lml1"
+"lml1" -> "lmj4" [label="xyz: 0.0285 0 0 \nrpy: 0 -0 0"]
+"lmj4" -> "lml2"
+"lml2" -> "lmj5" [label="xyz: 0.024 0 0 \nrpy: 0 -0 0"]
+"lmj5" -> "lml3"
+"left_palm" -> "lrij1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 0"]
+"lrij1" -> "lringbase"
+"lringbase" -> "lrij2" [label="xyz: -0.00165 0.0059 -0.00425 \nrpy: -0.0873 -5.42101e-20 3.1329"]
+"lrij2" -> "lril0"
+"lril0" -> "lrij3" [label="xyz: 0.0148 0 0 \nrpy: 1.5708 -0 0"]
+"lrij3" -> "lril1"
+"lril1" -> "lrij4" [label="xyz: 0.0259 0 0 \nrpy: 0 -0 0"]
+"lrij4" -> "lril2"
+"lril2" -> "lrij5" [label="xyz: 0.022 0 0 \nrpy: 0 -0 0"]
+"lrij5" -> "lril3"
+"left_palm" -> "ltj1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 0"]
+"ltj1" -> "lthumbbase"
+"lthumbbase" -> "ltj2" [label="xyz: 0.0239 -0.01235 0.005 \nrpy: -1.4922 -5.55112e-17 -2.0683"]
+"ltj2" -> "ltl0"
+"ltl0" -> "ltj3" [label="xyz: 0 0 0 \nrpy: -1.5708 0 0"]
+"ltj3" -> "ltl1"
+"ltl1" -> "ltj4" [label="xyz: 0.021 0 -0.0056 \nrpy: 0 -0 0"]
+"ltj4" -> "ltl2"
+"ltl2" -> "ltj5" [label="xyz: 0.026 0 0 \nrpy: 0 -0 0"]
+"ltj5" -> "ltl3"
+"ltl3" -> "ltj6" [label="xyz: 0.022 0 0 \nrpy: 0 -0 0"]
+"ltj6" -> "ltl4"
+"l4" -> "raj0" [label="xyz: -0.0248786 -0.08 0.0060472 \nrpy: -3.14159 0.2618 0"]
+"raj0" -> "ra0"
+"ra0" -> "raj1" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"raj1" -> "ra1"
+"ra1" -> "raj2" [label="xyz: 0 0 -0.1077 \nrpy: 1.5708 -0 -1.5708"]
+"raj2" -> "ra2"
+"ra2" -> "raj3" [label="xyz: 0 0 0 \nrpy: -1.5708 -0 -1.5708"]
+"raj3" -> "ra3"
+"ra3" -> "raj4" [label="xyz: 0.0039 0.0145 -0.15725 \nrpy: -1.5708 -0 -1.5708"]
+"raj4" -> "ra4"
+"ra4" -> "raj5" [label="xyz: 0.015 0 -0.004 \nrpy: 1.5708 -0 0"]
+"raj5" -> "ra5"
+"ra5" -> "raj6" [label="xyz: 0 0 -0.141 \nrpy: 1.5708 -0 -1.5708"]
+"raj6" -> "ra6"
+"ra6" -> "right_wrist_yaw" [label="xyz: 0 0 0 \nrpy: 1.5708 -0 1.5708"]
+"right_wrist_yaw" -> "right_palm"
+"right_palm" -> "ij1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 -3.14159"]
+"ij1" -> "indexbase"
+"indexbase" -> "ij2" [label="xyz: 0.0018 -0.027 -0.00375 \nrpy: 0.0959 -1.0842e-19 0.0175"]
+"ij2" -> "il0"
+"il0" -> "ij3" [label="xyz: 0.0148 0 0 \nrpy: 1.5708 -0 0"]
+"ij3" -> "il1"
+"il1" -> "ij4" [label="xyz: 0.0259 0 0 \nrpy: 0 -0 0"]
+"ij4" -> "il2"
+"il2" -> "ij5" [label="xyz: 0.022 0 0 \nrpy: 0 -0 0"]
+"ij5" -> "il3"
+"right_palm" -> "lij1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 -3.14159"]
+"lij1" -> "littlebase"
+"littlebase" -> "lij2" [label="xyz: -0.00025 0.02475 -0.0025 \nrpy: 0.0873 -0 0.0175"]
+"lij2" -> "lil0"
+"lil0" -> "lij3" [label="xyz: 0.0148 0 0 \nrpy: 1.5708 -0 0"]
+"lij3" -> "lil1"
+"lil1" -> "lij4" [label="xyz: 0.0218 0 0 \nrpy: 0 -0 0"]
+"lij4" -> "lil2"
+"lil2" -> "lij5" [label="xyz: 0.019 0 0 \nrpy: 0 -0 0"]
+"lij5" -> "lil3"
+"right_palm" -> "mj1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 -3.14159"]
+"mj1" -> "middlebase"
+"middlebase" -> "mj2" [label="xyz: 0.0028 -0.01 -0.005 \nrpy: 0 -0 0"]
+"mj2" -> "ml0"
+"ml0" -> "mj3" [label="xyz: 0.015 0 0 \nrpy: 1.5708 -0 0"]
+"mj3" -> "ml1"
+"ml1" -> "mj4" [label="xyz: 0.0285 0 0 \nrpy: 0 -0 0"]
+"mj4" -> "ml2"
+"ml2" -> "mj5" [label="xyz: 0.024 0 0 \nrpy: 0 -0 0"]
+"mj5" -> "ml3"
+"right_palm" -> "rij1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 -3.14159"]
+"rij1" -> "ringbase"
+"ringbase" -> "rij2" [label="xyz: 0.00165 0.0059 -0.00425 \nrpy: 0.0873 -0 0.0087"]
+"rij2" -> "ril0"
+"ril0" -> "rij3" [label="xyz: 0.0148 0 0 \nrpy: 1.5708 -0 0"]
+"rij3" -> "ril1"
+"ril1" -> "rij4" [label="xyz: 0.0259 0 0 \nrpy: 0 -0 0"]
+"rij4" -> "ril2"
+"ril2" -> "rij5" [label="xyz: 0.022 0 0 \nrpy: 0 -0 0"]
+"rij5" -> "ril3"
+"right_palm" -> "tj1" [label="xyz: -0.0625 0 0.016 \nrpy: 0 -0 -3.14159"]
+"tj1" -> "thumbbase"
+"thumbbase" -> "tj2" [label="xyz: -0.0239 -0.01235 0.005 \nrpy: 1.4922 -0 -1.0733"]
+"tj2" -> "tl0"
+"tl0" -> "tj3" [label="xyz: 0 0 0 \nrpy: -1.5708 0 0"]
+"tj3" -> "tl1"
+"tl1" -> "tj4" [label="xyz: 0.021 0 0.0056 \nrpy: 0 -0 0"]
+"tj4" -> "tl2"
+"tl2" -> "tj5" [label="xyz: 0.026 0 0 \nrpy: 0 -0 0"]
+"tj5" -> "tl3"
+"tl3" -> "tj6" [label="xyz: 0.022 0 0 \nrpy: 0 -0 0"]
+"tj6" -> "tl4"
+"base_link" -> "llaj0" [label="xyz: 0 0.0681 -0.1199 \nrpy: -1.57079 -7.34641e-06 -2.65359e-06"]
+"llaj0" -> "ll0"
+"ll0" -> "llaj1" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"llaj1" -> "ll1"
+"ll1" -> "llaj2" [label="xyz: 0 0 0 \nrpy: -1.5708 -0 1.5708"]
+"llaj2" -> "ll2"
+"ll2" -> "llaj3" [label="xyz: 0 0 0 \nrpy: 1.5708 -0 -1.5708"]
+"llaj3" -> "ll3"
+"ll3" -> "llaj4" [label="xyz: 0 0 -0.225 \nrpy: 1.5708 -0 1.5708"]
+"llaj4" -> "ll4"
+"ll4" -> "llaj5" [label="xyz: 0 -0.215 0 \nrpy: -3.14159 -4.23516e-22 1.5708"]
+"llaj5" -> "ll5"
+"ll5" -> "llaj6" [label="xyz: 0 0 0 \nrpy: -1.5708 0 0"]
+"llaj6" -> "ll6"
+"base_link" -> "rlaj0" [label="xyz: 0 -0.0681 -0.1199 \nrpy: -1.57079 -7.34641e-06 -2.65359e-06"]
+"rlaj0" -> "rl0"
+"rl0" -> "rlaj1" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"rlaj1" -> "rl1"
+"rl1" -> "rlaj2" [label="xyz: 0 0 0 \nrpy: 1.5708 -0 1.5708"]
+"rlaj2" -> "rl2"
+"rl2" -> "rlaj3" [label="xyz: 0 0.002 0.008 \nrpy: 1.5708 -0 1.5708"]
+"rlaj3" -> "rl3"
+"rl3" -> "rlaj4" [label="xyz: 0 0 0.225 \nrpy: -1.5708 -0 -1.5708"]
+"rlaj4" -> "rl4"
+"rl4" -> "rlaj5" [label="xyz: 0 -0.215 0 \nrpy: -3.14159 -4.23516e-22 1.5708"]
+"rlaj5" -> "rl5"
+"rl5" -> "rlaj6" [label="xyz: 0 0 0 \nrpy: 1.5708 -0 0"]
+"rlaj6" -> "rl6"
+}
